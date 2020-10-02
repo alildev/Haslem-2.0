@@ -10,3 +10,67 @@
 body {
     font-family: 'Playfair Display', serif;
 }
+
+html {
+    background: url(haslam.main.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.menu-options {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-options li a {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.menu-options li a:hover {
+    background-color: #ccc7d3;
+}
+
+/* SECTIONS */
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-home {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .hero-banner {
+
+} */
+
+.search-form {
+    position: relative;
+    padding: 5rem;
+}
