@@ -8,7 +8,9 @@
     </head>
     <body>
         <header class="header">
-            <a href="#">LOGO</a>
+            <a href="#">
+                <img src="img/haslam-logo.png" alt="haslam logo" class="logo">
+            </a>
             <!-- MOBILE MENU -->
             <!-- MOBILE MENU -->
             <div class="menu">
@@ -28,12 +30,13 @@
                         <h1 class="hero-text">Welcome to Haslam's Bookstore</h1>
                         <h2 class="hero-subtext">Florida's Largest New & Used Bookstore</h2>
                     </div>
-                    
                     <form action="#" class="search-form" method="GET">
-                        <input type="search" name="keywords" id="keywords" placeholder="Search Haslam's...">
-                        <button type="submit" class="submit">
-                            <img src="#" alt="search">
-                        </button>
+                        <input type="search" name="keywords" id="keywords" class="input" placeholder="Search Haslam">
+                            <button type="submit" class="search-button">
+                                <svg class="search-icon">
+                                    <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                                </svg>
+                            </button>
                     </form>
                 </sec>
             </div>
